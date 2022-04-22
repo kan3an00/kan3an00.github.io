@@ -65,7 +65,7 @@
 
             <!-- Flags Section -->
             <div class="grid grid-cols-1 lg:grid-cols-4 gap-14 py-10">
-                <div v-for="(country, index) in countries" :key="index" class="rounded-md dark:bg-header-dark bg-white shadow-lg overflow-hidden cursor-pointer pb-6" @click="this.$router.push(`/details?country=${country.name}`)">
+                <div v-for="(country, index) in countries" :key="index" class="rounded-md dark:bg-header-dark bg-white shadow-lg overflow-hidden cursor-pointer pb-6" @click="$router.push(`/details?country=${country.name}`)">
                     <div class="flex flex-col">
                         <div class="h-40 bg-cover bg-no-repeat bg-center" :style="`background-image: url(${country.flag})`"></div>
                         <div class="p-5 px-6 flex flex-col gap-1">

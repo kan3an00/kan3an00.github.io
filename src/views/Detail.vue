@@ -3,7 +3,7 @@
         <Header />
         <main class="lg:mt-40 mt-28 lg:mx-32 mx-4 pb-10">
             <div class="flex">
-                <div class="shadow-3xl-dark dark:bg-header-dark flex py-[0.35rem] px-6 items-center justify-center gap-4 rounded-lg cursor-pointer dark:text-gray-200 text-black" @click="this.$router.push('/')">
+                <div class="shadow-3xl-dark dark:bg-header-dark flex py-[0.35rem] px-6 items-center justify-center gap-4 rounded-lg cursor-pointer dark:text-gray-200 text-black" @click="$router.push('/')">
                     <ArrowNarrowLeftIcon class="h-5 w-5" />
                     <p>Back</p>
                 </div>
