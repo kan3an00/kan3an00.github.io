@@ -40,7 +40,7 @@
     </div>
 </template>
 <script>
-    import Header from '../components/Header.vue'
+    import Header from '@/components/Header.vue'
     import { ArrowNarrowLeftIcon } from '@heroicons/vue/solid'
     import axios from 'axios'
     export default {

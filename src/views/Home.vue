@@ -81,7 +81,7 @@
     </div>
 </template>
 <script>
-    import Header from '../components/Header.vue'
+    import Header from '@/components/Header.vue'
     import { SearchIcon } from '@heroicons/vue/solid'
     import axios from 'axios'
     export default {
